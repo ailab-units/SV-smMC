@@ -1,0 +1,122 @@
+Namespace(n_formulas=3, likelihood='binomial', variational_distribution='cholesky', variational_strategy='default', load=True, batch_size=100, n_epochs=2000, lr=0.001, n_posterior_samples=10, device='cuda')
+
+=== SVI GP Training NCM0_DS_10000samples_10obs ===
+
+=== SVI GP Validation NCM0_DS_200samples_1000obs ===
+---formula 0
+
+Training time = 04:46:19 cuda
+Mean squared error: 0.00013748161062237952
+Validation accuracy: 67.5 %
+Average uncertainty area:  0.012412370443107772
+
+Evaluation time = 00:00:01
+---formula 1
+
+Training time = 03:59:42 cuda
+Mean squared error: 0.00015983180893883905
+Validation accuracy: 53.0 %
+Average uncertainty area:  0.021105685992596667
+
+Evaluation time = 00:00:00
+---formula 2
+
+Training time = 03:08:01 cuda
+Mean squared error: 0.00040917294363136165
+Validation accuracy: 62.5 %
+Average uncertainty area:  0.01780442763070188
+
+Evaluation time = 00:00:00
+Namespace(n_formulas=3, likelihood='binomial', variational_distribution='cholesky', variational_strategy='default', load=True, batch_size=100, n_epochs=2000, lr=0.001, n_posterior_samples=10, device='cuda')
+
+=== SVI GP Training NCM0_DS_15000samples_10obs ===
+
+=== SVI GP Validation NCM0_DS_300samples_1000obs ===
+---formula 0
+
+Training time = 04:17:51 cuda
+Mean squared error: 0.000653760861923056
+Validation accuracy: 85.0 %
+Average uncertainty area:  0.02598231218660447
+
+Evaluation time = 00:00:00
+---formula 1
+
+Training time = 04:17:54 cuda
+Mean squared error: 0.000653760861923056
+Validation accuracy: 85.0 %
+Average uncertainty area:  0.02598231218660447
+
+Evaluation time = 00:00:00
+---formula 2
+
+Training time = 03:44:08 cuda
+Mean squared error: 0.00033697877835035095
+Validation accuracy: 52.666666666666664 %
+Average uncertainty area:  0.022043167284568763
+
+Evaluation time = 00:00:00
+Namespace(n_formulas=3, likelihood='binomial', variational_distribution='cholesky', variational_strategy='default', load=True, batch_size=100, n_epochs=2000, lr=0.001, n_posterior_samples=10, device='cuda')
+
+=== SVI GP Training NCM0_DS_20000samples_10obs ===
+
+=== SVI GP Validation NCM0_DS_400samples_1000obs ===
+---formula 0
+
+Training time = 04:29:30 cuda
+Mean squared error: 0.0005074796310064081
+Validation accuracy: 53.0 %
+Average uncertainty area:  0.024080742185436294
+
+Evaluation time = 00:00:00
+---formula 1
+
+Training time = 04:29:09 cuda
+Mean squared error: 0.0005074796310064081
+Validation accuracy: 53.0 %
+Average uncertainty area:  0.024080742185436294
+
+Evaluation time = 00:00:00
+---formula 2
+
+Training time = 04:14:35 cuda
+Mean squared error: 0.003921859286050499
+Validation accuracy: 34.0 %
+Average uncertainty area:  0.032438466077045425
+
+Evaluation time = 00:00:00
+Namespace(n_formulas=3, likelihood='binomial', variational_distribution='cholesky', variational_strategy='default', load=True, batch_size=100, n_epochs=2000, lr=0.001, n_posterior_samples=10, device='cuda')
+
+=== SVI GP Training NCM5_DS_40000samples_10obs ===
+
+=== SVI GP Validation NCM5_DS_800samples_1000obs ===
+---formula 0
+
+Training time = 08:51:42 cuda
+Mean squared error: 0.0013791228475716064
+Validation accuracy: 66.875 %
+Average uncertainty area:  0.038236288580147326
+
+Evaluation time = 00:00:00
+---formula 1
+
+Training time = 08:04:03 cuda
+Mean squared error: 0.0014815973727888671
+Validation accuracy: 67.125 %
+Average uncertainty area:  0.017500009560667926
+
+Evaluation time = 00:00:00
+---formula 2
+
+Training time = 08:03:39 cuda
+Mean squared error: 0.0002244509298606301
+Validation accuracy: 44.875 %
+Average uncertainty area:  0.010741396475193989
+
+Evaluation time = 00:00:00
+Namespace(n_formulas=3, likelihood='binomial', variational_distribution='cholesky', variational_strategy='default', load=True, batch_size=100, n_epochs=2000, lr=0.001, n_posterior_samples=10, device='cuda')
+
+=== SVI GP Training NCM5_DS_60000samples_10obs ===
+
+=== SVI GP Validation NCM5_DS_1200samples_1000obs ===
+---formula 0

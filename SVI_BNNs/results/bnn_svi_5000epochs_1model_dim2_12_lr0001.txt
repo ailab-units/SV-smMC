@@ -1,0 +1,145 @@
+Namespace(n_formulas=3, likelihood='binomial', architecture='3L', batch_size=100, n_epochs=5000, lr=0.001, n_hidden=30, n_posterior_samples=100, device='cuda', load=True)
+
+=== SVI BNN Training NCM0_DS_10000samples_10obs ===
+
+=== SVI BNN Validation NCM0_DS_200samples_1000obs ===
+---formula 0
+
+Training time = 01:49:36 cuda
+Evaluation time = 00:00:01
+Mean squared error: 0.00016415276331827044
+Validation accuracy: 97.5 %
+Average uncertainty area:  0.06172419030432975
+
+---formula 1
+
+Training time = 01:58:30 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.00017062928236555308
+Validation accuracy: 83.5 %
+Average uncertainty area:  0.09926918688863648
+
+---formula 2
+
+Training time = 01:54:21 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.00037334731314331293
+Validation accuracy: 92.5 %
+Average uncertainty area:  0.08760055089528569
+
+Namespace(n_formulas=3, likelihood='binomial', architecture='3L', batch_size=100, n_epochs=5000, lr=0.001, n_hidden=30, n_posterior_samples=100, device='cuda', load=True)
+
+=== SVI BNN Training NCM0_DS_15000samples_10obs ===
+
+=== SVI BNN Validation NCM0_DS_300samples_1000obs ===
+---formula 0
+
+Training time = 02:44:09 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.002271731849759817
+Validation accuracy: 100.0 %
+Average uncertainty area:  0.12628011751498358
+
+---formula 1
+
+Training time = 02:43:46 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.0015765656717121601
+Validation accuracy: 100.0 %
+Average uncertainty area:  0.11966453525200298
+
+---formula 2
+
+Training time = 02:44:07 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.00027489231433719397
+Validation accuracy: 92.33333333333333 %
+Average uncertainty area:  0.11866580895905095
+
+Namespace(n_formulas=3, likelihood='binomial', architecture='3L', batch_size=100, n_epochs=5000, lr=0.001, n_hidden=30, n_posterior_samples=100, device='cuda', load=True)
+
+=== SVI BNN Training NCM0_DS_20000samples_10obs ===
+
+=== SVI BNN Validation NCM0_DS_400samples_1000obs ===
+---formula 0
+
+Training time = 03:39:22 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.0002154524263460189
+Validation accuracy: 94.5 %
+Average uncertainty area:  0.09603879049757229
+
+---formula 1
+
+Training time = 03:38:17 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.00014976417878642678
+Validation accuracy: 96.75 %
+Average uncertainty area:  0.08818222963604783
+
+---formula 2
+
+Training time = 03:39:16 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.0014362895162776113
+Validation accuracy: 97.0 %
+Average uncertainty area:  0.14211506817070763
+
+Namespace(n_formulas=3, likelihood='binomial', architecture='3L', batch_size=100, n_epochs=5000, lr=0.001, n_hidden=30, n_posterior_samples=100, device='cuda', load=True)
+
+=== SVI BNN Training NCM5_DS_40000samples_10obs ===
+
+=== SVI BNN Validation NCM5_DS_800samples_1000obs ===
+---formula 0
+
+Training time = 13:05:29 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.0007465485250577331
+Validation accuracy: 98.375 %
+Average uncertainty area:  0.15511504351453595
+
+---formula 1
+
+Training time = 17:05:06 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.0005793402087874711
+Validation accuracy: 98.625 %
+Average uncertainty area:  0.14644397976106197
+
+---formula 2
+
+Training time = 10:38:53 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.0005547654582187533
+Validation accuracy: 97.625 %
+Average uncertainty area:  0.06061109306768607
+
+Namespace(n_formulas=3, likelihood='binomial', architecture='3L', batch_size=100, n_epochs=5000, lr=0.001, n_hidden=30, n_posterior_samples=100, device='cuda', load=True)
+
+=== SVI BNN Training NCM5_DS_60000samples_10obs ===
+
+=== SVI BNN Validation NCM5_DS_1200samples_1000obs ===
+---formula 0
+
+Training time = 10:54:24 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.0011490244651213288
+Validation accuracy: 98.75 %
+Average uncertainty area:  0.06565728649605368
+
+---formula 1
+
+Training time = 10:54:27 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.0007666683522984385
+Validation accuracy: 89.75 %
+Average uncertainty area:  0.09717214342927351
+
+---formula 2
+
+Training time = 23:54:04 cuda
+Evaluation time = 00:00:00
+Mean squared error: 0.0004417373856995255
+Validation accuracy: 94.75 %
+Average uncertainty area:  0.05992057020111428
+
