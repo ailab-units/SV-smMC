@@ -44,7 +44,7 @@ source venv/bin/activate
 ### Training and validation datasets
 
 The datasets (training and test) used for the experiments (both biological and random) can be downloaded from the following link:
-https://mega.nz/folder/ZLhRlQ5Q#7NBW57XF5u6bCLReVwYxPQ
+[https://mega.nz/folder/ZLhRlQ5Q#7NBW57XF5u6bCLReVwYxPQ](https://mega.nz/folder/pbBFnYSJ#XXwzMHfJaV4G9xKx3NMIwg)
 and loaded in the `src/data` folder.
 
 
