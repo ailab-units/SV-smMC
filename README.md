@@ -1,13 +1,13 @@
-# Scalable Stochastic Parametric Verification with Stochastic Variational Smoothed Model Checking
+# Scalable and Reliable Stochastic Parametric Verification with Stochastic Variational Smoothed Model Checking
 
-Luca Bortolussi, Francesca Cairoli, Ginevra Carbone, Paolo Pulcini @RV 23
+Luca Bortolussi, Francesca Cairoli, Ginevra Carbone, Paolo Pulcini
 
 ### Abstract
 
 Parametric verification of linear temporal properties for stochastic models requires to compute the satisfaction probability of a certain property as a function of the parameters of the model. Smoothed model checking (smMC)~\cite{bortolussi2016smoothed} infers the satisfaction function over the entire parameter space from a limited set of observations obtained via simulation. As observations are costly and noisy, smMC leverages the power of Bayesian learning based on Gaussian Processes (GP), providing accurate reconstructions with statistically sound quantification of the uncertainty. 
 In this paper we propose Stochastic Variational Smoothed Model Checking (SV-smMC), which exploits stochastic variational inference (SVI) to approximate the posterior distribution of the smMC problem. The strength and flexibility of SVI, a stochastic gradient-based optimization making inference easily parallelizable and enabling GPU acceleration,  make SV-smMC applicable both to  Gaussian Processes (GP) and Bayesian Neural Networks (BNN). 
 SV-smMC extends the smMC framework by greatly improving scalability to higher dimensionality of parameter spaces and larger training datasets, thus overcoming the well-known limits of GP. 
-Additionally, we combine the Bayesian quantification of uncertainty of SV-smMC with the Inductive Conformal Predictions framework to provide probabilistically approximately correct point-specific error estimates, with statistical guarantees over the coverage of the predictive error.
+Additionally, we combine the Bayesian quantification of uncertainty of SV-smMC with the Inductive Conformal Predictions framework to provide probabilistically approximately correct point-specific error estimates, with statistical guarantees over the coverage of the predictive error. Additionally, we combine the Bayesian quantification of uncertainty of SV-smMC with the Inductive Conformal Predictions framework to provide probabilistically approximately correct point-specific error estimates, with statistical guarantees over the coverage of the predictive error.
 
 ## Project structure
 
