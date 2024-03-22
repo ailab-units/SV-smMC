@@ -8,7 +8,6 @@ import numpy as np
 import pickle5 as pickle
 
 sys.path.append(".")
-from settings import *
 from SVI_BNNs.bnn import BNN_smMC
 from posterior_plot_utils import plot_posterior
 
@@ -29,7 +28,13 @@ parser.add_argument("--n_hidden", default=30, type=int, help="Size of hidden lay
 parser.add_argument("--n_posterior_samples", default=100, type=int, help="Number of samples from posterior distribution")
 parser.add_argument("--device", default="cuda", type=str, help="Choose 'cpu' or 'cuda'")
 parser.add_argument("--load", default=False, type=eval)
+parser.add_argument("--cathegory", default="bio", type=str, help="bio or random case studies")
 args = parser.parse_args()
+
+if args.cathegory == "bio":
+    from bio_settings import *
+else:
+    from settings import *
 
 plots_path = os.path.join(plots_path, "SVI_BNNs/")
 models_path = os.path.join(models_path, "SVI_BNNs/")

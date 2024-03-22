@@ -10,7 +10,7 @@ import pickle5 as pickle
 import matplotlib.pyplot as plt
 
 sys.path.append(".")
-from settings import *
+
 from posterior_plot_utils import plot_posterior
 from SVI_GPs.variational_GP import GPmodel
 from data_utils import normalize_columns, get_tensor_data, get_tensor_data_w_pindex
@@ -31,8 +31,14 @@ parser.add_argument("--n_epochs", default=2000, type=int, help="Max number of tr
 parser.add_argument("--lr", default=0.001, type=float, help="Learning rate")
 parser.add_argument("--n_posterior_samples", default=100, type=int, help="Number of samples from posterior distribution")
 parser.add_argument("--device", default="cuda", type=str, help="Choose 'cpu' or 'cuda'")
+parser.add_argument("--cathegory", default="bio", type=str, help="bio or random case studies")
 args = parser.parse_args()
 
+if args.cathegory == "bio":
+    from bio_settings import *
+else:
+    from settings import *
+    
 plots_path = os.path.join(plots_path, "SVI_GPs/")
 models_path = os.path.join(models_path, "SVI_GPs/")
 

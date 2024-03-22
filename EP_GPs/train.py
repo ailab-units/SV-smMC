@@ -4,7 +4,6 @@ import cProfile
 import numpy as np
 import pickle5 as pickle
 sys.path.append(".")
-from settings import *
 from EP_GPs.smMC_GPEP import *
 from posterior_plot_utils import plot_posterior
 import RandomCRN
@@ -14,8 +13,14 @@ from data_utils import *
 parser = argparse.ArgumentParser()
 parser.add_argument("--load", default=False, type=eval, help="If True load the model else train it")
 parser.add_argument("--n_formulas", default=3, type=int, help="Nb of STL formulas")
+parser.add_argument("--cathegory", default="bio", type=str, help="bio or random case studies")
 args = parser.parse_args()
 
+if args.cathegory == "bio":
+    from bio_settings import *
+else:
+    from settings import *
+    
 plots_path = os.path.join(plots_path, "EP_GPs/")
 models_path = os.path.join(models_path, "EP_GPs/")
 

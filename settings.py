@@ -69,12 +69,7 @@ case_studies = [
 
     ]
 
-novel_case_studies = [
 
-    ["Eco/", "Eco_DS_30000samples_20obs", "Eco_DS_600samples_1000obs",  plist_eco, plist_eco],
-    ["MAPK/", "MAPK_DS_50000samples_10obs", "MAPK_DS_1000samples_1000obs", plist_mapk, plist_mapk]
-
-]
 data_path = 'data/'
 models_path = 'out/models/'
 plots_path = 'out/plots/'
